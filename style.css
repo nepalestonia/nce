@@ -23,8 +23,12 @@ nav ul li {
 }
 
 a {
-    color: #333;
+    color: #333; /* Default link color */
     text-decoration: none;
+}
+
+a:hover {
+    color: #FF5733; /* Change link color on hover */
 }
 
 main {
